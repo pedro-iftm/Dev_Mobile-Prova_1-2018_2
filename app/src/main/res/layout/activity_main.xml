@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="prova.phs.com.provaphs">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp">
+
+        <TextView
+            android:id="@+id/texto_contagem_textview"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:text="@string/txt_cont"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/visor"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/txt_btn1"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn1"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="246dp"
+        android:onClick="adicionar"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn2"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:onClick="remover"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn3"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="342dp"
+        android:onClick="zerar"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
+
+
+</LinearLayout>

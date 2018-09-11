@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prova1</string>
+    <string name="txt_cont">Contagem: </string>
+    <string name="txt_btn1">+1</string>
+    <string name="txt_btn2">-1</string>
+    <string name="txt_btn3">ZERAR CONTAGEM</string>
+</resources>
